@@ -13,12 +13,11 @@ let weight = document.getElementById('weight-input');
 
 
 calculateBtn.addEventListener('click', () => {
-  console.log("testtt")
   let inputInfo = [age.value, height.value, weight.value];
   if(male.checked){
-    inputInfo.push("male");
+    inputInfo.push('male');
   }else if(female.checked){
-    inputInfo.push("female");
+    inputInfo.push('female');
   }
   
   let bmi = Number(inputInfo[2])/(Number(inputInfo[1])/100*Number(inputInfo[1])/100);
