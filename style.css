@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .bmi-section {
   width: 100%;
   position: absolute;
@@ -50,7 +54,8 @@
 
 .bmi-section .bmi-cards-wrapper .bmi-calculator-card .btn-wrapper {
   position: absolute;
-  bottom: 20px;
+  right: 30px;
+  top: 120px;
 }
 
 .bmi-section .bmi-cards-wrapper .bmi-calculator-card .btn-wrapper .btn {
@@ -92,5 +97,16 @@
 
 .bmi-section .bmi-cards-wrapper .bmi-calculator-card .female-male-wrapper label {
   margin: 0 20px 0 10px;
+}
+
+.bmi-section .result-text-wrap {
+  position: absolute;
+  bottom: 30px;
+  display: none;
+}
+
+.bmi-section .result-text-wrap .result-title {
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

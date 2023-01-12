@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .bmi-section {
   width: 100%;
   position: absolute;
@@ -50,7 +54,8 @@
 
       .btn-wrapper {
         position: absolute;
-        bottom: 20px;
+        right: 30px;
+        top: 120px;
       }
 
       .btn-wrapper .btn {
@@ -93,6 +98,17 @@
       label {
         margin: 0 20px 0 10px;
       }
+    }
+  }
+
+  .result-text-wrap {
+    position: absolute;
+    bottom: 30px;
+    display: none;
+
+    .result-title {
+      font-size: 25px;
+      margin-bottom: 10px;
     }
   }
 }
